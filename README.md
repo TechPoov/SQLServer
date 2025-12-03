@@ -3,12 +3,8 @@ Gdrive-To-Gsheet is an advanced Google Apps Script utility designed to scan any 
 
 It supports files, folders, metadata, deep folder trees, multiple profiles, resume-based execution, and custom column preservation — all in a user-friendly, reliable workflow.
 
-Perfect for teams and individuals performing audits, compliance checks, inventory management, migrations, or simply trying to understand the structure of a complex Drive hierarchy.
-
- &nbsp; 
-[Download Link](https://github.com/TechPoov/GdriveFolderCopy/releases/tag/V1.0)
-
-![GitHub all releases](https://img.shields.io/github/downloads/TechPoov/GDriveCrawlerToGSheet/total.svg)
+Perfect for teams and individuals performing audits, compliance checks, inventory management, migrations, or simply trying to understand the structure of a complex Drive hierarchy. 
+[Download Link](https://github.com/TechPoov/GdriveFolderCopy/releases/tag/V1.0)  ![GitHub all releases](https://img.shields.io/github/downloads/TechPoov/GDriveCrawlerToGSheet/total.svg)
 
 # Features
 ## 1. Multi-Profile Scan Engine
