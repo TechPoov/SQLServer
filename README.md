@@ -5,6 +5,13 @@ It supports files, folders, metadata, deep folder trees, multiple profiles, resu
 
 Perfect for teams and individuals performing audits, compliance checks, inventory management, migrations, or simply trying to understand the structure of a complex Drive hierarchy.
 
+ &nbsp; 
+[Download Link](https://github.com/TechPoov/GdriveFolderCopy/releases/tag/V1.0)
+&nbsp; 
+
+&nbsp;   <br>
+![GitHub all releases](https://img.shields.io/github/downloads/TechPoov/GDriveCrawlerToGSheet/total.svg)
+
 # Features
 ## 1. Multi-Profile Scan Engine
 Set up multiple scan jobs in the Profiles sheet. Each profile runs independently with its own Name, Folder ID, Mode, and Depth limits.
@@ -180,5 +187,6 @@ Distributed under the MIT License.
 # Support
 For help, feature requests, or feedback:
 📧 techpoov+GDrive-to-GSheet@gmail.com
+
 🌐 https://techpoov.github.io
 
