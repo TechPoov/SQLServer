@@ -7,7 +7,7 @@ Perfect for teams and individuals performing audits, compliance checks, inventor
 [Download Link](https://github.com/TechPoov/GdriveFolderCopy/releases/tag/V1.0)  ![GitHub all releases](https://img.shields.io/github/downloads/TechPoov/GDriveCrawlerToGSheet/total.svg)
 
 # Features
-## 1. Multi-Profile Scan Engine
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;## 1. Multi-Profile Scan Engine
 &nbsp;&nbsp;&nbsp; > &nbsp;&nbsp;&nbsp;Set up multiple scan jobs in the Profiles sheet. Each profile runs independently with its own Name, Folder ID, Mode, and Depth limits.
 
 ## 2. Three Powerful Scan Modes
