@@ -11,7 +11,7 @@ Perfect for teams and individuals performing audits, compliance checks, inventor
 &nbsp;&nbsp;&nbsp; > &nbsp;&nbsp;&nbsp;Set up multiple scan jobs in the Profiles sheet. Each profile runs independently with its own Name, Folder ID, Mode, and Depth limits.
 
 ## 2. Three Powerful Scan Modes
-Files — scans only files
+&nbsp;&nbsp;&nbsp; > &nbsp;&nbsp;&nbsp; Files — scans only files
 Folders — scans only folders with folder-level metrics
 Both — full content + folder structure, ideal for audits
 
