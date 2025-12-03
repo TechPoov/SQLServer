@@ -9,7 +9,6 @@ Perfect for teams and individuals performing audits, compliance checks, inventor
 [Download Link](https://github.com/TechPoov/GdriveFolderCopy/releases/tag/V1.0)
 &nbsp; 
 
-&nbsp;   <br>
 ![GitHub all releases](https://img.shields.io/github/downloads/TechPoov/GDriveCrawlerToGSheet/total.svg)
 
 # Features
