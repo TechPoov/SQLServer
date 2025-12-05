@@ -1,7 +1,11 @@
-<div style="display: flex; align-items: center; gap: 12px;">
+<div style="display: flex; align-items: center; gap: 14px;">
   <img src="img/tp_logo.png" width="60" />
-  <span><em>Everyday IT Tools – Smart Tools for Busy People (TechPoov)</em></span>
+  <span style="font-size: 20px;"><em>Everyday IT Tools – Smart Tools for Busy People (TechPoov)</em></span>
 </div>
+
+
+
+
 --------------done--------
 
 # {{ToolName}}
