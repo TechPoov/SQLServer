@@ -1,9 +1,7 @@
-<p style="display: flex; align-items: center; gap: 12px; margin: 0; padding: 0;">
-  <img src="img/tp_logo.png" width="40" />
-  <span style="font-size: 32px; font-weight: 700;">
-    GDrive-to-GSheet
-  </span>
-</p>
+<h1 style="display: flex; align-items: center; gap: 12px; margin: 0;">
+  <img src="img/tp_logo.png" width="48" style="border-radius: 6px;" />
+  GDrive-to-GSheet
+</h1>
 
 
 
