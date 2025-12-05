@@ -1,186 +1,208 @@
-# 🖥 Overview
-Gdrive-To-Gsheet is an advanced Google Apps Script utility designed to scan any Google Drive folder and generate a structured, formatted, and analysis-ready Google Sheet output.
+# {{ToolName}}
 
-It supports files, folders, metadata, deep folder trees, multiple profiles, resume-based execution, and custom column preservation — all in a user-friendly, reliable workflow.
+Short one–sentence tagline that says **what it does** and **for whom**.  
+_For example:_  
+Automated Google Drive folder replication tool with progress persistence, duplicate avoidance, and detailed logging.
 
-Perfect for teams and individuals performing audits, compliance checks, inventory management, migrations, or simply trying to understand the structure of a complex Drive hierarchy. 
-[Download Link](https://github.com/TechPoov/GdriveFolderCopy/releases/tag/V1.0)  ![GitHub all releases](https://img.shields.io/github/downloads/TechPoov/GDriveCrawlerToGSheet/total.svg)
+---
 
-# Features
-## 1. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Multi-Profile Scan Engine
-&nbsp;&nbsp;&nbsp; > &nbsp;&nbsp;&nbsp;Set up multiple scan jobs in the Profiles sheet. Each profile runs independently with its own Name, Folder ID, Mode, and Depth limits.
+## 1. Overview
 
-## 2. Three Powerful Scan Modes
-&nbsp;&nbsp;&nbsp; > &nbsp;&nbsp;&nbsp; Files — scans only files
-Folders — scans only folders with folder-level metrics
-Both — full content + folder structure, ideal for audits
+{{ToolName}} is a {{platform / technology}} utility that helps you {{primary outcome}}.
 
-## 3. Time-Sliced Smart Worker
-Large folder trees often time out in Google Apps Script.
-This tool avoids that by using a resume-safe, slice-based worker system:
+It is designed for:
 
-Handles tens of thousands of items
-Never exceeds script limits
-Automatically continues in the background
-Robust against interruptions
+- {{User type 1}} – e.g., IT admins who manage large Google Drives
+- {{User type 2}} – e.g., team leads who need transparent folder copies
+- {{User type 3}} – e.g., anyone who wants reliable, resumable automation
 
-## 4. Automatic Resume
+Key benefits:
 
-If a scan is interrupted (quota hit, script time, browser close):
-State is saved
-Tool picks up exactly where it stopped
-No duplicates, no resets, no lost time
+- **Reliable** – handles large jobs without manual intervention
+- **Transparent** – clear logs and status for every run
+- **Repeatable** – same settings can be reused safely across runs
 
-## 5. Custom Column Preservation
-If you add custom columns (Owner, ReviewedBy, Status, etc.):
-They are not deleted
-The tool merges them back into new scan results
-Perfect for manual tagging, governance, or cleanup workflows
+---
 
-## 6. Clean, Professional Output Format
+## 2. Key Features
 
-Each output sheet includes:
-Hyperlinked file or folder names
-Fixed-width columns for Path and File/Name
-Auto-resized metadata columns
-Hidden technical columns (ID)
-Optional raw URL column (if enabled)
+- **Feature 1** – short, concrete description  
+- **Feature 2** – what problem it solves  
+- **Feature 3** – anything that makes it stand out  
+- **Safety / Protection** – e.g., duplicate avoidance, read-only operations, etc.  
+- **Reporting / Logs** – how users can see what happened  
 
-## 7. Profile-Level Navigation
+_Example for GdriveFolderCopy:_
 
-Upon completion:
-The ProfileName becomes a hyperlink
-Clicking it jumps directly to the output sheet
-Older output is archived as <ProfileName>_Old
+- **Recursive Folder Copying** – copies full folder hierarchies (subfolders + files)  
+- **Progress Persistence & Auto-Resume** – safely resumes long jobs using stored state  
+- **Duplicate Avoidance** – skips files that already exist at the destination  
+- **Row-Based Job Management** – drive copy jobs are defined in a Profiles sheet  
+- **Execution Logging** – writes a detailed log row for each completed or failed job  
 
-## 8. Lightweight & Admin-Friendly
-No external libraries.
-No add-ons.
-Runs inside your Google Sheet.
-No installation for end users.
+---
 
-# Who Needs This Tool
-## IT, Infrastructure, and Workspace Administrators
-Use it for:
-File/folder inventories
-Drive structure understanding
-Migration planning
-Security and permission reviews
-Audit documentation
+## 3. When to Use This Tool
 
-## Team Leads, Project Managers, Department Heads
-Use it to:
-View team folder contents at a glance
-Track what is stored where
-Identify cleanup opportunities
-Monitor project artifacts
+Use {{ToolName}} when:
 
+- You need to **{{situation 1}}**  
+- You regularly **{{situation 2}}**  
+- You are preparing for **{{audit / cleanup / migration}}**  
 
-## Compliance, Legal, Finance, and Audit Teams
-Use it for:
-Timestamp-based evidence
-Structured metadata exports
-Compliance documentation
-Drive activity snapshotting
+Not a good fit when:
 
-## Educators, Nonprofits, Freelancers, Students
-Use it to:
-Organize course materials
-Map archival resources
-Prepare project handoff documents
-Track academic or volunteer file sets
+- {{Case where tool is overkill or wrong}}  
 
-## Personal and Power Users
-Use it when your Drive becomes too large or disorganized.
-Perfect for deep organization, cleanup, or visualization.
+---
 
-# Use Cases
-## Full Drive Inventory
-Map an entire Drive hierarchy into a sortable, filterable sheet.
+## 4. How It Works (High-Level)
 
-## Migration Preparation
-Before migrating to SharePoint, OneDrive, Dropbox, etc., assess:
-Folder depth
-File counts
-Last modified activity
-Structure complexity
+1. You configure one or more jobs in the **Profiles** sheet / config file.  
+2. The tool reads these jobs and validates the inputs.  
+3. For each job, it processes items in batches to avoid timeouts.  
+4. State is stored between runs to enable **resume**.  
+5. A **Log** sheet / log file captures results, errors, and summary.
 
+_(Adjust steps for each specific tool.)_
 
-## Cleanup & Optimization
-Identify:
-Empty folders
-Unused or old files
-Rare file types
-Redundant structures
+---
 
-## Compliance & Audit Reporting
-Generate metadata needed for:
-Financial audits
-Security reviews
-Legal documentation
-IT governance
+## 5. Quick Start
 
-## Project Documentation
-Snapshot a Drive folder for project closure or client handoff.
+Follow these steps to run your first job in a few minutes.
 
-## Custom Tagging Workflows
-Because custom columns persist, users can add:
-Review status
-Ownership
-Priority
-Risk classification
+1. **Get the Tool**
+   - Open the public copy: {{Link to “Make a copy” or Releases page}}
+   - (Optional) Rename it for your environment.
 
-# How It Works 
-For installation steps, configuration details, and usage instructions, refer to the QuickStart Guide included in the Downloads section.
+2. **Authorize the Script / Executable**  
+   - Run `▶ {{entry function / script name}}` once.  
+   - Approve required permissions when prompted.
 
-# 6. Benefits
-## Saves Time & Manual Effort
-Eliminates the need to manually explore deep Drive structures.
-## Audit-Ready Reports
-Includes metadata, hyperlinks, timestamps, and structured rows suitable for reporting.
-## Zero Training Required
-Non-technical users can operate the tool from a single menu click.
-## Works with Any Analysis Tool
-Output is compatible with:
-Google Sheets
-Excel
-Power BI
-CSV workflows
-Data Studio / Looker
+3. **Configure One Profile**
+   - Open the **Profiles** sheet (or config file).
+   - Fill in the required columns for a single test job (see next section).
 
-## Team-Friendly
-Since everything runs inside Google Sheets, teams use it without installing anything.
+4. **Run the Tool**
+   - From the menu: **TechPoov Menu → {{Action name}}**  
+   - Wait for the status message / toast.
 
-# Download Contents
-## Gdrive-To-Gsheet — Copyable Google Sheet Template  
-Link in QuickStart or User Manual -  Ready to duplicate and start scanning immediately.
+5. **Review Results**
+   - Check the **Log** sheet / log file.
+   - Verify the output in Google Drive / Windows folder / SQL etc.
 
-## QuickStart Guide
-A concise one-page introduction.
+---
 
-## User Manual
-Full documentation with screenshots and workflows.
+## 6. Profiles / Configuration
 
-# What This Tool Does Not Do
-Does not delete, modify, or move Drive files
-Does not change file permissions
-Does not perform real-time Drive monitoring
-Does not replace admin-level audit logs
-Does not analyze content inside files (only metadata)
-This tool is strictly read-only and metadata-focused for safety.
+Describe the configuration sheet or file in a simple table.
 
-# Requirements
-A Google Workspace or personal Google account
-Access to the Drive folders you want to scan
-One-time authorization during first execution
+**Profiles Sheet (Required Columns)**
 
-# Version History
-V1.0 - Initial base version. 
-# License
-Distributed under the MIT License.
-# Support
-For help, feature requests, or feedback:
-📧 techpoov+GDrive-to-GSheet@gmail.com
+| Column Name      | Required? | Description                                                   |
+|------------------|-----------|---------------------------------------------------------------|
+| `ProfileName`    | Yes       | Friendly name for this job (used in logs and emails).        |
+| `SourceFolderId` | Yes       | ID / path of the source folder to scan or copy.              |
+| `TargetFolderId` | Yes       | ID / path of the destination folder (for copy tools).        |
+| `Active`         | Yes       | `Y` to enable this job, anything else to ignore.             |
 
-🌐 https://techpoov.github.io
+**Optional Columns**
+
+| Column Name      | Description                                                   |
+|------------------|---------------------------------------------------------------|
+| `NotifyEmail`    | Send completion / error emails to this address.              |
+| `Notes`          | Free-text comments about this job.                           |
+
+_(Adjust columns per tool.)_
+
+---
+
+## 7. Running the Tool
+
+### 7.1 From the Menu (Recommended)
+
+- In the Sheet, use **TechPoov Menu → {{Action name}}**.  
+- The tool will:
+  - Read all active profiles
+  - Execute each job in sequence
+  - Log results and show a summary alert
+
+### 7.2 Rerun / Resume Behavior
+
+Explain what happens on reruns:
+
+- **Resumable:** if a previous run stopped, the next run **continues where it left off**.  
+- **Idempotent:** safe to run the same job multiple times.  
+- **State clear:** how to reset state if needed.
+
+---
+
+## 8. Output & Logs
+
+Describe what the user can inspect after a run.
+
+- **Log Sheet / Log File**
+  - One row per job / per item
+  - Includes timestamps, status, counts, errors, and summary text.
+
+- **Output Folder / Report**
+  - Where copies are written or where the final report file appears
+  - Example: `{{Output/Reports}}` folder under the tool’s root.
+
+_Add a small example table if useful._
+
+---
+
+## 9. Error Handling & Troubleshooting
+
+Common issues and what to do:
+
+- **“Authorization required”** – run `{{entry point}}` and approve access.  
+- **“Cannot find folder ID”** – verify the folder ID / path in the Profiles sheet.  
+- **Timeouts** – tool will auto-resume next run; do not delete the log or state.  
+- **Permission errors** – ensure you have access to both source and destination.
+
+If something looks wrong:
+
+1. Check the **Log** sheet for `Status = Error`.  
+2. Note the error message and failing profile.  
+3. Fix the configuration and run again.
+
+---
+
+## 10. Limitations (Current Version)
+
+Be honest and clear – this builds trust.
+
+Examples:
+
+- Does not copy **shared drives** yet (only My Drive).  
+- Files larger than **X MB** may be skipped or slower to process.  
+- Currently supports up to **N profiles per run** for best performance.  
+
+---
+
+## 11. Version History
+
+| Version | Date       | Summary                                      |
+|---------|------------|----------------------------------------------|
+| v1.0    | 2025-11-30 | Initial public release.                      |
+| v1.1    | 2025-12-10 | Improved logging and resume reliability.     |
+
+_(Mirror what you already track in your internal Version_Tracking sheet, but short.)_
+
+---
+
+## 12. Support
+
+- **User Guide:** {{link to detailed PDF / GDoc if available}}  
+- **Issues / Bugs:** use the GitHub **Issues** tab in this repository.  
+- **Email:** `TechPoov+{{ToolName}}@gmail.com` (or generic support address).  
+
+---
+
+## 13. License
+
+Short note if you use a standard license (MIT, etc.), and link to `LICENSE` file.
 
