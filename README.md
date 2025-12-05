@@ -4,9 +4,6 @@
 </h1>
 
 
-
-# GDrive-to-GSheet
-
 Short one–sentence tagline that says **what it does** and **for whom**.  
 _For example:_  
 Automated Google Drive folder replication tool with progress persistence, duplicate avoidance, and detailed logging.
