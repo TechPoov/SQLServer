@@ -1,6 +1,6 @@
 *Everyday IT Tools – Smart Tools for Busy People (TechPoov)*  
 
-![TechPoov Logo](img/TechPoov_Logo.png)
+![TechPoov Logo](img/tp_logo.png)
 
 
 # {{ToolName}}
