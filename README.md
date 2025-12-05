@@ -1,18 +1,14 @@
-<p>
+<p style="margin: 0; padding: 0;">
   <img src="img/tp_logo.png"
-       width="32"
-       style="vertical-align: middle; margin-right: 8px;" />
-  <span style="font-size: 32px; font-weight: 600; vertical-align: middle;">
-    <em>Everyday IT Tools – Smart Tools for Busy People (TechPoov)</em>
+       width="36"
+       style="vertical-align: middle; margin-right: 10px;" />
+  <span style="font-size: 32px; font-weight: 700; vertical-align: middle;">
+    GDrive-to-GSheet
   </span>
 </p>
 
 
-
-
---------------done--------
-
-# {{ToolName}}
+# GDrive-to-GSheet
 
 Short one–sentence tagline that says **what it does** and **for whom**.  
 _For example:_  
