@@ -1,9 +1,8 @@
-
-
-
-<p align="center">
-  <img src="img/tp_logo.png" width="50"> *Everyday IT Tools – Smart Tools for Busy People (TechPoov)*  
-</p>
+<div style="display: flex; align-items: center; gap: 12px;">
+  <img src="img/tp_logo.png" width="60" />
+  <span><em>Everyday IT Tools – Smart Tools for Busy People (TechPoov)</em></span>
+</div>
+--------------done--------
 
 # {{ToolName}}
 
