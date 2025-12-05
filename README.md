@@ -2,7 +2,7 @@
   <img src="img/tp_logo.png"
        width="32"
        style="vertical-align: middle; margin-right: 8px;" />
-  <span style="font-size: 22px; font-weight: 600; vertical-align: middle;">
+  <span style="font-size: 32px; font-weight: 600; vertical-align: middle;">
     <em>Everyday IT Tools – Smart Tools for Busy People (TechPoov)</em>
   </span>
 </p>
