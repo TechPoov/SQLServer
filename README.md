@@ -2,7 +2,7 @@
 
 
 <p align="center">
-  <img src="img/techpoov-logo.png" width="200">
+  <img src="img/tp_logo.png" width="200">
 </p>
 
 # {{ToolName}}
