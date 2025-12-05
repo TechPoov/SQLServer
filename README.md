@@ -1,3 +1,8 @@
+*Everyday IT Tools – Smart Tools for Busy People (TechPoov)*  
+
+![TechPoov Logo](img/TechPoov_Logo.png)
+
+
 # {{ToolName}}
 
 Short one–sentence tagline that says **what it does** and **for whom**.  
