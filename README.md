@@ -3,6 +3,26 @@
 Short one–sentence tagline that says **what it does** and **for whom**.  
 _For example:_  
 Automated Google Drive folder replication tool with progress persistence, duplicate avoidance, and detailed logging.
+[display text](https://example.com)
+
+**User Guide:** [techpoov.github.io](https://techpoov.github.io)
+
+**User Guide:** [GdriveFolderCopy User Guide](https://techpoov.github.io/docs/GdriveFolderCopy_UserGuide.pdf)
+
+**User Guide:** [Open User Guide](https://docs.google.com/document/d/XXXXXXXXXXXX)
+
+**User Guide:** [Make a copy](https://docs.google.com/document/d/XXXXX/copy)
+
+
+If you want dynamic linking
+
+If your tool name is GdriveFolderCopy, you can write:
+
+**User Guide:** [Visit TechPoov Docs](https://techpoov.github.io/#GdriveFolderCopy)
+
+
+Your website already loads README when clicked, so this will act like a documentation hub.
+
 
 ---
 
