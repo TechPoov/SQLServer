@@ -1,11 +1,10 @@
-<p style="margin: 0; padding: 0;">
-  <img src="img/tp_logo.png"
-       width="36"
-       style="vertical-align: middle; margin-right: 10px;" />
-  <span style="font-size: 32px; font-weight: 700; vertical-align: middle;">
+<p style="display: flex; align-items: center; gap: 12px; margin: 0; padding: 0;">
+  <img src="img/tp_logo.png" width="40" />
+  <span style="font-size: 32px; font-weight: 700;">
     GDrive-to-GSheet
   </span>
 </p>
+
 
 
 # GDrive-to-GSheet
